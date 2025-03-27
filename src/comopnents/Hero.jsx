@@ -20,7 +20,7 @@ const Hero = () => {
                 scrub: 2,
             });
             tl.fromTo(".chart-0", { opacity: 1 }, { opacity: 0, scale: 0.99, display: "none", position: "absolute" })
-                .fromTo(".chart-1", { opacity: 0.4, scale: 0.99 }, { opacity: 1, duration: 1, display: "flex", scale: 1 }, "0.1")
+                .fromTo(".chart-1", { opacity: 0.2, scale: 0.99 }, { opacity: 1, duration: 1, display: "flex", scale: 1 }, "0.1")
                 .fromTo(".chart-1", { opacity: 1 }, { opacity: 0, duration: 1, scale: 0.99, display: "none", position: "absolute" })
                 .fromTo(".chart-2", { opacity: 0.4, scale: 0.99 }, { opacity: 1, duration: 1, display: "flex", scale: 1 }, "1.2")
                 .fromTo(".chart-2", { opacity: 1 }, { opacity: 0, duration: 1, scale: 0.99, display: "none", position: "absolute" })
