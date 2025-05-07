@@ -4,8 +4,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CHART_LIST } from '@/utils/helper';
 import Image from 'next/image';
-gsap.registerPlugin(ScrollTrigger);
 
+gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
     useEffect(() => {
         const mm = gsap.matchMedia();
@@ -58,5 +58,4 @@ const Hero = () => {
         </div >
     );
 }
-
 export default Hero;
